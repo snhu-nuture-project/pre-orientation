@@ -36,6 +36,18 @@
   color: $heritage;
 }
 
+.btn-secondary-light {
+  background-color: white;
+  border-color: $heritage;
+  color: $heritage;
+}
+
+.btn-secondary-light:hover {
+  background-color: $heritage;
+  border-color: #fff;
+  color: white;
+}
+
 //Side chat button
 .chat-btn{
   position: fixed;

@@ -4,7 +4,7 @@
 
 
 h1 {
-  color: #fff;
+  color: $heritage;
   font-size: $font-size-6xl;
   font-weight: bold;
   font-family: $oswald;
@@ -31,7 +31,6 @@ li {
   font-family: $open-sans;
   font-size: $font-size-md;
   font-weight: 400;
-  color: #666666;
   line-height: 1.5;
 }
 
@@ -60,6 +59,29 @@ a {
 color: $heritage;
 font-weight: 700;
 text-decoration: none;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.card-header {
+  font-family: $open-sans;
+  font-size: $font-size-md;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+
+.carousel-inner img {
+  height: 40vh; /* Adjust the height as needed */
+  object-fit: cover; /* This will scale the image to cover the entire container */
+}
+
+.circle-radius {
+border-radius: 50%;
+width: 150px;
+height: 150px;
 }
 
 @media only screen and (max-width: $breakpoint-sm) { 

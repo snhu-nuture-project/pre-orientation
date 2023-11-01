@@ -115,6 +115,18 @@ $font-size-7xl: 4rem; /*64px */
   color: #0a3370;
 }
 
+.btn-secondary-light {
+  background-color: white;
+  border-color: #0a3370;
+  color: #0a3370;
+}
+
+.btn-secondary-light:hover {
+  background-color: #0a3370;
+  border-color: #fff;
+  color: white;
+}
+
 .chat-btn {
   position: fixed;
   transform: rotate(-90deg);
@@ -164,7 +176,7 @@ $font-size-7xl: 4rem; /*64px */
 /* 40px  h1 tag* /
 $font-size-7xl: 4rem; /*64px */
 h1 {
-  color: #fff;
+  color: #0a3370;
   font-size: 2.5rem;
   font-weight: bold;
   font-family: "Oswald", sans-serif;
@@ -190,7 +202,6 @@ li {
   font-family: "Open Sans", sans-serif;
   font-size: 1rem;
   font-weight: 400;
-  color: #666666;
   line-height: 1.5;
 }
 
@@ -220,6 +231,29 @@ a {
   color: #0a3370;
   font-weight: 700;
   text-decoration: none;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.card-header {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.carousel-inner img {
+  height: 40vh; /* Adjust the height as needed */
+  -o-object-fit: cover;
+     object-fit: cover; /* This will scale the image to cover the entire container */
+}
+
+.circle-radius {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
 }
 
 @media only screen and (max-width: 576px) {
@@ -319,7 +353,7 @@ footer.mobile {
 /* 40px  h1 tag* /
 $font-size-7xl: 4rem; /*64px */
 h1 {
-  color: #fff;
+  color: #0a3370;
   font-size: 2.5rem;
   font-weight: bold;
   font-family: "Oswald", sans-serif;
@@ -345,7 +379,6 @@ li {
   font-family: "Open Sans", sans-serif;
   font-size: 1rem;
   font-weight: 400;
-  color: #666666;
   line-height: 1.5;
 }
 
@@ -377,6 +410,29 @@ a {
   text-decoration: none;
 }
 
+.text-bold {
+  font-weight: bold;
+}
+
+.card-header {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.carousel-inner img {
+  height: 40vh; /* Adjust the height as needed */
+  -o-object-fit: cover;
+     object-fit: cover; /* This will scale the image to cover the entire container */
+}
+
+.circle-radius {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
 @media only screen and (max-width: 576px) {
   section {
     margin: 2.5rem 0 2.5rem 0;
@@ -384,8 +440,4 @@ a {
 }
 body {
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
-}
-
-.hero-section {
-  background-color: #2066a2;
 }/*# sourceMappingURL=style.css.map */
