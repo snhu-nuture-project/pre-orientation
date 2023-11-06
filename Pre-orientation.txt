@@ -733,8 +733,8 @@ body {
             student</h1>
           <div class="row">
             <div class="col-md-4 d-flex flex-column align-items-center text-center mb-3">
-              <img src="./resources/images/placeholder.jpg"
-                class="circle-radius mb-3">
+              <img src="./resources/images/Clipboard.png"
+                class="mb-3" style="width: 125px;">
               <h2>Review your <br> courses </h2>
               <p>Time to register for your first term! We’ve hand-picked and
                 arranged your recommended courses to help keep you on track with
@@ -744,8 +744,8 @@ body {
             </div>
 
             <div class="col-md-4 d-flex flex-column align-items-center text-center mb-3">
-              <img src="./resources/images/placeholder.jpg"
-                class="circle-radius mb-3">
+              <img src="./resources/images/SFS Counselor.png"
+              class="mb-3" style="width: 125px;">
               <h2>Schedule your check-in with Student Financial Services</h2>
               <p>An SNHU finance counselor will review your tuition funding and
                 financial aid options, and help you create a plan that makes
@@ -755,8 +755,8 @@ body {
             </div>
 
             <div class="col-md-4 d-flex flex-column align-items-center text-center mb-3">
-              <img src="./resources/images/placeholder.jpg"
-                class="circle-radius mb-3">
+              <img src="./resources/images/Laptop.png"
+              class="mb-3" style="width: 125px;">
               <h2 >Request disability support services</h2>
               <p>Our Online Accessibility Center supports students with known or
                 undocumented disabilities, or those who need assistance with
