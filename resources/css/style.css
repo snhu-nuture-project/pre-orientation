@@ -1,11 +1,4 @@
 /* Font size */
-/* 18px */
-/*20 px*/
-/*24px h2 tag */
-/* 32px */
-/* 36px */
-/* 40px  h1 tag* /
-$font-size-7xl: 4rem; /*64px */
 .ink-blue {
   color: #00244e;
 }
@@ -57,13 +50,6 @@ $font-size-7xl: 4rem; /*64px */
 }
 
 /* Font size */
-/* 18px */
-/*20 px*/
-/*24px h2 tag */
-/* 32px */
-/* 36px */
-/* 40px  h1 tag* /
-$font-size-7xl: 4rem; /*64px */
 .ink-blue {
   color: #00244e;
 }
@@ -77,13 +63,6 @@ $font-size-7xl: 4rem; /*64px */
 }
 
 /* Font size */
-/* 18px */
-/*20 px*/
-/*24px h2 tag */
-/* 32px */
-/* 36px */
-/* 40px  h1 tag* /
-$font-size-7xl: 4rem; /*64px */
 .btn {
   padding: 0.6rem 0.9rem;
   border-radius: 3px;
@@ -168,13 +147,6 @@ $font-size-7xl: 4rem; /*64px */
 }
 
 /* Font size */
-/* 18px */
-/*20 px*/
-/*24px h2 tag */
-/* 32px */
-/* 36px */
-/* 40px  h1 tag* /
-$font-size-7xl: 4rem; /*64px */
 h1 {
   color: #0a3370;
   font-size: 2.5rem;
@@ -262,13 +234,6 @@ a {
   }
 }
 /* Font size */
-/* 18px */
-/*20 px*/
-/*24px h2 tag */
-/* 32px */
-/* 36px */
-/* 40px  h1 tag* /
-$font-size-7xl: 4rem; /*64px */
 .card-header {
   font-size: 1.25rem;
   font-weight: 700;
@@ -345,13 +310,6 @@ footer.mobile {
 }
 
 /* Font size */
-/* 18px */
-/*20 px*/
-/*24px h2 tag */
-/* 32px */
-/* 36px */
-/* 40px  h1 tag* /
-$font-size-7xl: 4rem; /*64px */
 h1 {
   color: #0a3370;
   font-size: 2.5rem;
