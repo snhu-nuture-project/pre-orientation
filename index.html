@@ -8,7 +8,7 @@
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Pre orientation Landing Page</title>
+    <title>Pre-Orientation Landing Page</title>
     <!-- Bootstrap CSS -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
@@ -134,7 +134,7 @@
         <div class="row">
 
           <div class="col-md-6"><h2>Welcome to your SNHU Pre-Orientation</h2>
-            <p> I want to personally congratulate you on your accetance to SNHU!
+            <p> I want to personally congratulate you on your acceptance to SNHU!
               We're excited for you to join us and will be with you every step.
               <br> <br> Bookmark this page. The pre-orientation videos below are
               designed to help you prepare for success during your first term.
@@ -430,8 +430,8 @@
         <div class="row">
           <div class="col-md-4 d-flex flex-column align-items-center
             text-center mb-3">
-            <img src="./resources/images/Clipboard.png"
-              class="mb-3" style="width: 125px;">
+            <img src="https://cdn-assets-us.frontify.com/s3/frontify-enterprise-files-us/eyJwYXRoIjoic25odW5pdmVyc2l0eVwvZmlsZVwvYkxMaXh1TG03SE43NmJuMkFhZHAuc3ZnIn0:snhuniversity:RuDXMKW6fT8sR-WKnBzwqJ2BMGDJAYeayKfNYQ4rf1k?width=800"
+               style="width: 250px;">
             <h2>Review your <br> courses </h2>
             <p>Time to register for your first term! We’ve hand-picked and
               arranged your recommended courses to help keep you on track with
@@ -443,8 +443,8 @@
 
           <div class="col-md-4 d-flex flex-column align-items-center
             text-center mb-3">
-            <img src="./resources/images/SFS Counselor.png"
-              class="mb-3" style="width: 125px;">
+            <img src="https://cdn-assets-us.frontify.com/s3/frontify-enterprise-files-us/eyJwYXRoIjoic25odW5pdmVyc2l0eVwvZmlsZVwvd0dia0FTb2RzMTZkZUFVUkd4c24uc3ZnIn0:snhuniversity:36TOaT7u2HO6lPPw9-oaNi7SQtkxIKVINnnLldqd8yQ?width=800"
+              style="width: 250px;">
             <h2>Schedule your check-in with Student Financial Services</h2>
             <p>An SNHU finance counselor will review your tuition funding and
               financial aid options, and help you create a plan that makes
@@ -456,8 +456,8 @@
 
           <div class="col-md-4 d-flex flex-column align-items-center
             text-center mb-3">
-            <img src="./resources/images/Laptop.png"
-              class="mb-3" style="width: 125px;">
+            <img src="https://cdn-assets-us.frontify.com/s3/frontify-enterprise-files-us/eyJwYXRoIjoic25odW5pdmVyc2l0eVwvZmlsZVwvYU51SHB4UHZqZGlMSGI4M2luczIuc3ZnIn0:snhuniversity:zdjAKW-uXjl_emtXNp4WNpnA7OPbYYUtNPbXWAaetIQ?width=800"
+               style="width: 250px;">
             <h2>Request disability support services</h2>
             <p>Our Online Accessibility Center supports students with known or
               undocumented disabilities, or those who need assistance with
@@ -1304,37 +1304,3 @@
         </p>
       </div>
     </footer>
-
-    <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        const vidyardPlayers = document.querySelectorAll('.vidyard-player-embed');
-    
-        vidyardPlayers.forEach((player) => {
-          player.addEventListener('play', function() {
-            // Find the closest carousel-caption and hide it
-            const caption = player.closest('.carousel-item').querySelector('.carousel-caption');
-            if (caption) {
-              caption.style.display = 'none';
-            }
-          });
-    
-          player.addEventListener('pause', function() {
-            // Find the closest carousel-caption and show it
-            const caption = player.closest('.carousel-item').querySelector('.carousel-caption');
-            if (caption) {
-              caption.style.display = 'block';
-            }
-          });
-    
-          // Check video state periodically and hide/show the caption
-          setInterval(function() {
-            const caption = player.closest('.carousel-item').querySelector('.carousel-caption');
-            if (player.paused) {
-              caption.style.display = 'none';
-            } else {
-              caption.style.display = 'block';
-            }
-          }, 1000); // Check every second
-        });
-      });
-    </script>
